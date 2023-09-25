@@ -1,0 +1,108 @@
+#userDisplays {
+    position: absolute;
+    top: 2;
+    right: 0;
+    text-align: right;
+    color: #ff6600;
+    margin: 20px;
+}
+
+#mobileAppEmbed {
+    text-align: left;
+    color: #ff6600;
+    position: fixed;
+    width: 500px;
+    height: 400px;
+    bottom: 0;
+    left: 0;
+    margin: 20px;
+}
+
+#mobileAppEmbed h2 {
+    margin-top: -150px;
+}
+
+#mobileAppEmbed iframe {
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+header img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#welcomeMessage {
+    text-align: center;
+    color: #ff6600;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #222;
+    font-family: Arial, sans-serif;
+}
+
+#authForm {
+    text-align: center;
+    margin-top: 100px;
+}
+
+#authForm h2 {
+    color: #ff6600;
+}
+
+input[type="email"],
+input[type="password"] {
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    background-color: #444;
+    color: white;
+}
+
+input[type="email"]::placeholder,
+input[type="password"]::placeholder {
+    color: #888;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #FF6600;
+    color: white;
+}
+
+#secretContent {
+    text-align: center;
+    display: none;
+    margin-top: 50px;
+}
+
+#secretContent h1 {
+    color: #FF6600;
+}
+
+#signOutButton {
+    background-color: #FF6600;
+    color: white;
+}
+
+button:hover {
+    background-color: #ff6600;
+}
